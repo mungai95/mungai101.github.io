@@ -91,6 +91,10 @@ a {
   letter-spacing: 3px;
   font-size: 100px;
   text-shadow: 3px 3px #031015;
+  animation-name: fadeIn;
+  animation-duration: 3.50s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
 }
 
 .home-title h3 {
@@ -105,8 +109,12 @@ a {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: -100px;
+  left: 20px;
   height: 40px;
+  animation-name: fadeInLeft;
+  animation-duration: 1.50s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
 }
 
 #contact-link:hover {
@@ -132,10 +140,14 @@ a {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: -100px;
+  right: 20px;
   height: 40px;
   width: 90px;
   padding-right: 10px;
+  animation-name: fadeInRight;
+  animation-duration: 1.50s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
 }
 
 #work-link:hover {
@@ -160,10 +172,16 @@ a {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 90px;
-  bottom: -100px;
+  bottom: 20px;
   text-align: center;
   text-shadow: 3px 3px #000;
+}
+
+a #about-link {
+  animation-name: fadeInUp;
+  animation-duration: 1.50s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
 }
 
 #about-link:hover {
@@ -399,10 +417,13 @@ a {
 
 .title h1 {
   position: relative;
-  left: 1000px;
   font-size: 100px;
   color: #031015;
   text-shadow: 3px 3px #BAB075;
+  animation-name: fadeInRight;
+  animation-duration: 1.50s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
 }
 
 /*CONTENT*/
@@ -418,9 +439,15 @@ a {
   width: 80%;
   height: 80%;
   background: #031015;
-  right: 5000px;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.work-items div {
+  animation-name: fadeIn;
+  animation-duration: 1.50s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
 }
 
 .work-items h2 {
@@ -517,7 +544,6 @@ a {
 
 .about-content-text h1 {
   position: relative;
-  left: 1000px;
   font-size: 34px;
   text-shadow: 2px 2px #BAB075;
   padding: 20px 0;
@@ -528,14 +554,23 @@ a {
   font-size: 55px;
   font-family: 'Lato', sans-serif;
   font-weight: 600;
-  right: 1000px;
+  animation-name: fadeInLeft;
+  animation-duration: 1.50s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
 }
 
 .about-content-text h3 {
   position: relative;
-  left: 1000px;
   font-size: 21px;
   color: #BAB075;
+}
+
+.about-content-text h1, .about-content-text h3 {
+  animation-name: fadeInRight;
+  animation-duration: 1.50s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
 }
 
 .about-me {
@@ -702,10 +737,13 @@ a {
 
 .contact-title h1 {
   position: relative;
-  left: 1000px;
   font-size: 100px;
   color: #031015;
   text-shadow: 3px 3px #BAB075;
+  animation-name: fadeInRight;
+  animation-duration: 1.50s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
 }
 
 .contact-content {
@@ -743,8 +781,11 @@ a {
 
 .contact-table td {
   position: relative;
-  right: 1000px;
   font-size: 20px;
+  animation-name: fadeInLeft;
+  animation-duration: 1.50s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
 }
 
 .h-color {
@@ -780,10 +821,13 @@ a {
 
 .social li {
   position: relative;
-  left: 1000px;
   display: inline-block;
   padding: 20px;
   font-size: 50px;
+  animation-name: fadeInRight;
+  animation-duration: 1.50s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
 }
 
 .social i {
@@ -792,6 +836,53 @@ a {
 
 .social i:hover {
   color: #BAB075;
+}
+
+/*KEYFRAMES*/
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 90%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(90%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-90%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 

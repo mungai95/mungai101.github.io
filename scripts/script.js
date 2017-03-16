@@ -25,23 +25,6 @@ $(document).ready(function() {
    pulse();
 
    //Homepage animations
-   $("#contact-link").fadeIn(500).animate({left: '20px'},1000);
-   $("#work-link").animate({right: '20px'},1000);
-   $("#about-link").animate({bottom: '20px'},1000);
-   $(".home-title h1").hide(0).fadeIn(1000);
-   $(".home-title h3").hide(0).fadeIn(1000);
-   //About Page animations
-   $(".about-content-text h1,.about-content-text h3").animate({left: '0px'},1000);
-   $(".about-content-text h2").animate({right: '0px'},1000);
-   $(".about-img img").hide(0).fadeIn(1000);
-   //Work Page Animations
-   $(".title h1").animate({left: '0px'}, 1000);
-   $(".work-items").animate({right: '0px'}, 1000);
-   //Contact Page animations
-   $(".contact-title h1").animate({left: "0px"}, 1500);
-   $(".contact-info").hide(0).fadeIn(2000);
-   $(".contact-table td").animate({right: '0px'}, 1500)
-   $(".social li").animate({left: '0px'},1500);
   //Mobile Menu Load
   $(function(){
     $(".menu-page").hide();
