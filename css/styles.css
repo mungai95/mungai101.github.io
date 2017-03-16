@@ -830,11 +830,12 @@ a #about-link {
   animation-fill-mode: both;
 }
 
-.social p {
+.social li p {
   color: #031015;
+
 }
 
-.social p:hover {
+.social li p:hover {
   color: #BAB075;
 }
 
