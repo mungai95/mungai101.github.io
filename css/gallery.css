@@ -38,6 +38,10 @@ a {
   width: 100%;
   height: 100%;
   background: #DEDEDE;
+  animation-name: fadeIn;
+  animation-duration: 3.50s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
 }
 
 /*HEADER*/
@@ -63,7 +67,8 @@ a {
   font-weight: 800;
   text-shadow: 2px 2px #BAB075;
   animation-name: fadeInRight;
-  animation-duration: 7.50s;
+  animation-duration: 5.50s;
+  transition-timing-function: ease-in;
   animation-fill-mode: both;
 }
 
@@ -76,7 +81,8 @@ a {
   border-bottom: 2px solid #031015;
   color: #bab075;
   animation-name: fadeInLeft;
-  animation-duration: 7.50s;
+  animation-duration: 5.50s;
+  transition-timing-function: ease-in;
   animation-fill-mode: both;
 }
 
@@ -96,6 +102,10 @@ a {
   break-inside: avoid;
   padding: 5px;
   text-align: center;
+  animation-name: fadeInUp;
+  animation-duration: 5.50s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
 }
 .grid-item img{
   max-width: 300px;
