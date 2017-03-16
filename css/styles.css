@@ -823,18 +823,18 @@ a #about-link {
   position: relative;
   display: inline-block;
   padding: 20px;
-  font-size: 50px;
+  font-size: 20px;
   animation-name: fadeInRight;
   animation-duration: 1.50s;
   transition-timing-function: ease-in;
   animation-fill-mode: both;
 }
 
-.social i {
+.social p {
   color: #031015;
 }
 
-.social i:hover {
+.social p:hover {
   color: #BAB075;
 }
 
