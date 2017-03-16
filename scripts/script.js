@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
   //Dropdown Menu
   $(".nav-items").hide();
   $(".nav-icon").click(function(){
