@@ -91,5 +91,11 @@ $(document).ready(function() {
          window.location = linkLocation;
      }
      });
+     //Masonry
+     $('.grid').masonry({
+       // options
+       itemSelector: '.grid-item',
+       columnWidth: 350
+     });
 
 });
