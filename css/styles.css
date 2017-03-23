@@ -587,7 +587,7 @@ a #about-link {
   margin: 0 auto;
   top: 50%;
   transform: translateY(-50%);
-  padding: 200px;
+  padding: 150px;
   color: #031015;
 }
 
@@ -954,13 +954,15 @@ a #about-link {
   }
   .contact-items {
     display: block;
+    position: relative;
     max-width: 100%;
     height: 50%;
     padding-left: 10px;
+    left: 7%;
   }
 
   .contact-items td {
-    padding: 10px 0;;
+    padding: 10px 0;
   }
   .h-color {
     display: none;
@@ -981,7 +983,13 @@ a #about-link {
   .social li {
     display: inline-block;
     padding: 10px;
-    font-size: 55px;
+    font-size: 20px;
   }
 
+}
+
+@media screen and (max-width: 375px) {
+  .contact-items td {
+    font-size: 16px;
+  }
 }
