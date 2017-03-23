@@ -780,6 +780,10 @@ a #about-link {
   font-size: 20px;
   padding: 20px;
   margin: 0;
+  animation-name: fadeInLeft;
+  animation-duration: 1.50s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
 }
 
 .contact-social-links {
