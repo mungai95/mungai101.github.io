@@ -82,8 +82,7 @@ a {
   width: 100%;
   height: auto;
   text-align: center;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 15%;
 }
 
 .home-title h1 {
@@ -200,7 +199,7 @@ a #about-link {
   display: none;
   width: 100vw;
   height: 100vh;
-  background: url(../img/landing_img.jpg) no-repeat center;
+  background: url(../img/landing_img3.jpg) no-repeat center;
   background-size: cover;
   color: #DEDEDE;
 }
@@ -208,8 +207,7 @@ a #about-link {
 .mobile-menu-link {
   display: none;
   position: absolute;
-  top: 25%;
-  transform: translateY(-75%);
+  top: 5%;
   right: 0;
   width: 120px;
   height: 30px;
@@ -239,22 +237,22 @@ a #about-link {
   bottom: 12px;
 }
 
-.mobile-home-title {
+.mobile-title {
   position: relative;
   width: 100%;
   height: auto;
-  top: 50%;
-  transform: translateY(-50%);
   text-align: center;
+  top: 10%;
+}
+
+.mobile-title h1 {
+  font-size: 60px;
   text-shadow: 4px 4px #000;
 }
 
-.mobile-home-title h1 {
-  font-size: 60px;
-}
-
-.mobile-home-title h3 {
+.mobile-title h3 {
   color: #BAB075;
+  text-shadow: none;
 }
 
 /*MOBILE MENU*/
@@ -281,8 +279,7 @@ a #about-link {
 
 .mobile-menu-menu {
   position: absolute;
-  top: 25%;
-  transform: translateY(-75%);
+  top: 5%;
   right: 0;
   width: 120px;
   height: 30px;
