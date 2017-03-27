@@ -114,7 +114,7 @@ a {
   height: 100%;
   background: #DEDEDE;
   animation-name: fadeIn;
-  animation-duration: 3.50s;
+  animation-duration: 1.50s;
   transition-timing-function: ease-in;
   animation-fill-mode: both;
 }
@@ -142,7 +142,7 @@ a {
   font-weight: 800;
   text-shadow: 2px 2px #BAB075;
   animation-name: fadeInRight;
-  animation-duration: 5.50s;
+  animation-duration: 2.50s;
   transition-timing-function: ease-in;
   animation-fill-mode: both;
 }
@@ -156,7 +156,7 @@ a {
   border-bottom: 2px solid #031015;
   color: #bab075;
   animation-name: fadeInLeft;
-  animation-duration: 5.50s;
+  animation-duration: 2.50s;
   transition-timing-function: ease-in;
   animation-fill-mode: both;
 }
@@ -178,7 +178,7 @@ a {
   padding: 5px;
   text-align: center;
   animation-name: fadeInUp;
-  animation-duration: 5.50s;
+  animation-duration: 2.50s;
   transition-timing-function: ease-in;
   animation-fill-mode: both;
 }
